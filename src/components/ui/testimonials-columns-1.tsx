@@ -97,7 +97,7 @@ export function TestimonialsColumn() {
         <TestimonialColumn items={testimonials.slice(3)} duration={31} reverse />
       </div>
       <div className="hidden lg:block">
-        <TestimonialColumn items={[testimonials[2], testimonials[4], testimonials[0]]} duration={28} />
+        <TestimonialColumn items={testimonials.slice(1, 4)} duration={28} />
       </div>
     </div>
   );
